@@ -1,7 +1,9 @@
-#Taller de segundo Momento con PYTHON
+# Taller de segundo Momento con PYTHON
 <p align="center">
-  <img src"https://firebasestorage.googleapis.com/v0/b/pythonjuevesmfs.appspot.com/o/jake.jpg?alt=media&token=84e63581-c244-4cde-a541-9837d044c1b6" width="300">
+  <img src="https://firebasestorage.googleapis.com/v0/b/pythonjuevescmrr.appspot.com/o/foto2.jpg?alt=media&token=e3deb92d-5a49-44ed-982f-7b97ba51dc10" width="300" height="300">
 </p>
+
+Hecho por: Juan Pablo Moná, Clara Restrepo, Mateo Franco
 
 ***
 Taller de segundo Momento
