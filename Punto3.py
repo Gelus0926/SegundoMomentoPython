@@ -7,6 +7,9 @@ Se debe permitir ingresar o retirar dinero  cuando se desee
 """
 
 
+from errno import ESTALE
+
+
 opcion = 1
 codigo=0
 nombre=""
@@ -73,10 +76,14 @@ while(opcion!=0):
                     nuevosaldo=int(input("Digite cuanto quiere retirar: "))
 
                     saldo=cuenta['saldo']
-                    calculo=saldo-nuevosaldo
-                    cuenta['saldo']=calculo
-                    print(f'El nuevo saldo de la cuenta {buscarCodigo} es: {calculo}')
-                    print("\n")
+
+                    if (saldo < nuevosaldo):
+                        print("No tienes suficiente saldo")
+                    else:
+                        calculo=saldo-nuevosaldo
+                        cuenta['saldo']=calculo
+                        print(f'El nuevo saldo de la cuenta {buscarCodigo} es: {calculo}')
+                        print("\n")
                 else:
                     print("El numero de cuenta no se encuentra ")
                     print("\n")

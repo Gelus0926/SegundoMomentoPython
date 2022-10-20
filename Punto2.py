@@ -11,11 +11,9 @@ Si recibe -1 → Debe indicar que el segundo número es mayor """
 
 mayorQue =lambda numero1, numero2: 1 if numero1 > numero2 else -1
 
-numero=mayorQue(6,1)
+funcionDos = lambda : print('El primer numero es mayor') if mayorQue(1,6) == 1 else print('El segundo numero es mayor')
 
-funcionDos = lambda numero: print('El primer numero es mayor') if numero == 1 else print('El segundo numero es mayor')
-
-funcionDos(numero)
+funcionDos()
 
 
 

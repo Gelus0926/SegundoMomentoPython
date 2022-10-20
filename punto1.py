@@ -29,7 +29,7 @@ def ingresarCiclista ():
                 tiempoCiclista = int(input("Ingrese el tiempo hecho por el ciclista: "))
                 print("")
 
-                if(tiempoCiclista > tiempoFinal):
+                if(tiempoCiclista < tiempoFinal or tiempoFinal == 0):
                     tiempoFinal = tiempoCiclista
                     nombreFinal = nombre
                 
